@@ -292,5 +292,5 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-plugins:
-  - jemoji
+# plugins:
+#   - jemoji
