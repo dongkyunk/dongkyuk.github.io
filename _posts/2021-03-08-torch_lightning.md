@@ -3,7 +3,7 @@ title:  "Pytorch Lightning 튜토리얼/TPU"
 categories: tips
 excerpt: Pytorch 코드를 간단하게!
 ---
-Pytorch를 해본 사람이면 항상 코드에 반복되는 부분이 있음을 느낄거다. 
+Pytorch를 해본 사람이면 항상 코드에 반복되는 부분이 있음을 느낄거다. :thinking:	
 
 이런 Boiler plate 코드가 없다면 중요한 연구에만 집중할 수 있을 것이고, 남의 코드를 읽기도 쉬워질 것이다. 
 
@@ -77,6 +77,6 @@ Pytorch Lightning은 여러모로 장점이 많은 라이브러리다.
 
 코드도 깔끔해지고 (특히 Tensorflow 2에서 Pytorch로 넘어오는 유저들은 익숙한 구성에 빠르게 적응할 것 같다), pytorch xla로 하면 골치 아프고 복잡한 TPU 호환도 깔끔하게 한줄로 해준다. 아직 다 파악하지도 못할만큼 각종 기능들 또한 제공해주는건 덤이다.
 
-Pytorch Lightning으로 다들 번개 처럼 빠른 딥러닝 연구를 할 수 있길 바란다.
+Pytorch Lightning으로 다들 번개 처럼 빠른 딥러닝 연구를 할 수 있길 바란다. :sunglasses:	
 
 
