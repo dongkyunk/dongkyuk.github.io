@@ -7,26 +7,28 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
-### Hi there 👋 !
+## Hi there 👋 !
 
-### About me :
-I am an undergraduate student majoring in Artificial Intelligence at Carnegie Mellon University.<br/>
-I am interested in RL and Computer Vision, and actively participating in related Kaggle Competitions.
+## About me :
+I am an undergraduate student majoring in Artificial Intelligence at Carnegie Mellon University.
+I am interested in Computer Vision, RL and Hackathons!
 
-- 🔭 I’m currently working as a Machine Learning Engineer.
-- 👯 I’m looking to collaborate with developers on Kaggle Competitions or Hackathons.
-- 🤔 I’m looking for help with Open source Contribution.
+### Work Experience
 
-- Current Projects :
-  - https://www.kaggle.com/c/ranzcr-clip-catheter-line-classification
-  - https://www.kaggle.com/c/hungry-geese
-  - https://www.kaggle.com/c/ncaam-march-mania-2021
-  - https://dacon.io/competitions/official/235697/leaderboard/
+- Machine Learning Engineer, Research Team @ VisualCamp 
+- Artificial Intelligence Intern , Face Team @ Naver Clova
+- Research Assistant, Flyped Robot Team @ CMU HCI Institute
+
+### Skills
+- Languages : Python, C++, C, Java
+- Deep Learning : PyTorch, Tensorflow
+- Other : Docker, Git, Flask, MySQL, Flutter, Streamlit, OpenCV, Arduino
   
-- 📫 How to reach me: https://www.linkedin.com/in/dongkyuk/
+### Languages
+- Korean (Native)
+- English (Native, TOEFL 119)
 
-<!--
-**dongkyuk/dongkyuk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
--->
+### Education
+- Carnegie Mellon University School of Computer Science
+  - BS in Artificial Intelligence (2019 - ) 
+- 용인외대부고 국제반
