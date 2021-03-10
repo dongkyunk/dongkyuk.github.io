@@ -68,9 +68,8 @@ Pytorch Lightning은 코드만 간단하게 해주는게 아니다.
 - Automatic Optimization
 - 너무 많다! 
 
-자세한건 documentation을 참고하자.
+자세한건 [documentation](https://pytorch-lightning.readthedocs.io/en/latest/index.html)을 참고하자.
 
-<https://pytorch-lightning.readthedocs.io/en/latest/index.html>
 
 ## Why
 Pytorch Lightning은 여러모로 장점이 많은 라이브러리다. 

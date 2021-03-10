@@ -98,6 +98,7 @@ author:
   bio              : "Artificial Intelligence Major @Carnegie Mellon"
   location         : "Seoul"
   email            :
+  linkedin         : "dongkyuk" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
