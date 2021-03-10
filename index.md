@@ -13,22 +13,22 @@ header:
 I am an undergraduate student majoring in Artificial Intelligence at Carnegie Mellon University.
 I am interested in Computer Vision, RL and Hackathons!
 
-### :technologist: Work Experience
+### Work Experience
 
 - Machine Learning Engineer, Research Team @ **VisualCamp** 
 - Artificial Intelligence Intern , Face Team @ **Naver Clova**
 - Research Assistant, Flyped Robot Team @ **CMU HCI Institute**
 
-### :hammer_and_wrench: Skills
+### Skills
 - Languages : Python, C++, C, Java
 - Deep Learning : PyTorch, Tensorflow
 - Other : Docker, Git, Flask, MySQL, Flutter, Streamlit, OpenCV, Arduino
   
-### :speaking_head: Languages
+### Languages
 - Korean (Native)
 - English (Native, TOEFL 119)
 
-### :student: Education
+### Education
 - Carnegie Mellon University School of Computer Science
   - BS in Artificial Intelligence (2019 - ) 
 - 용인외대부고 국제반
