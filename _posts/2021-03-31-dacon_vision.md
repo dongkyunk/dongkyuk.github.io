@@ -11,7 +11,7 @@ excerpt: Dacon 대회로 시작하는 Image classification baseline
 ![Image](https://dl.airtable.com/.attachmentThumbnails/069cd9c89e116be040488d3c3e6d4058/457224f8)
 
 ## How
-1. Efficientnet B5 (Adam, Cross entropy Loss)
+- Efficientnet B5 (Adam, Cross entropy Loss)
 
 Backbone은 Efficientnet B5를 썼다.
 
@@ -99,7 +99,7 @@ class MnistModel(LightningModule):
         return [optimizer]
 ```
 
-2. Rotation Augmentation (Traing, Test time)
+- Rotation Augmentation (Traing, Test time)
 
 Augemntation은 rotation만 적용했다. Flip의 경우 성능이 오히려 하락을 했다. 유력한 가설은 p, d 등의 대칭적인 알파벳을 flip 할 경우 학습에 혼선을 주는 것 같았다. 
 
@@ -150,7 +150,7 @@ model = TTA(model, device, conf)
 
 ```
  
-3. 5 fold Ensemble
+- 5 fold Ensemble
 
 ```python
 def split_dataset(path: os.PathLike, num_split:int=5) -> None:
@@ -162,7 +162,7 @@ def split_dataset(path: os.PathLike, num_split:int=5) -> None:
     df.to_csv('data/split_kfold.csv', index=False)
 ```
 
-4. Test time Probability Threshold
+- Test time Probability Threshold
 
 이게 중요한 부분이었는데, probability threshold를 통상적인 0.5가 아닌 0.6 정도로 했을 떄 성능 향상이 있었다. Model이 calibrate가 완벽히 되지 않았고, multi-label이라 그렇다는 것이 유력한 가설이다.
 
