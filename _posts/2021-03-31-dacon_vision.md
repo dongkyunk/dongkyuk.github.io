@@ -12,6 +12,7 @@ excerpt: Dacon 대회로 시작하는 Image classification baseline
 
 ## How
 1. Efficientnet B5 (Adam, Cross entropy Loss)
+
 Backbone은 Efficientnet B5를 썼다.
 
 ```python
@@ -97,6 +98,7 @@ class MnistModel(LightningModule):
 #             optimizer, T_max=10, eta_min=0)
         return [optimizer]
 ```
+
 2. Rotation Augmentation (Traing, Test time)
 
 Augemntation은 rotation만 적용했다. Flip의 경우 성능이 오히려 하락을 했다. 유력한 가설은 p, d 등의 대칭적인 알파벳을 flip 할 경우 학습에 혼선을 주는 것 같았다. 
@@ -149,6 +151,7 @@ model = TTA(model, device, conf)
 ```
  
 3. 5 fold Ensemble
+
 ```python
 def split_dataset(path: os.PathLike, num_split:int=5) -> None:
     df = pd.read_csv(path)
