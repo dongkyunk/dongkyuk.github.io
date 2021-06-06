@@ -5,7 +5,7 @@ excerpt: 와이파이 신호로 실내 내비게이션
 ---
 이번에 Kaggle의 Indoor Location & Navigation 대회에 참여했다.
 
-Deadline 2주 정도를 남기고 육군훈련소에 입소하느라 안타깝게 입상은 실패했다. (훈련소는 없었어도 은상은 했을 듯...) 
+Deadline 2주 정도를 남기고 육군훈련소에 입소하느라 안타깝게 입상은 실패했다. (훈련소만 없었어도 은상은 했을 듯...) 
 
 그래도 입소하기 전에 억하심정으로 training code [notebook](https://www.kaggle.com/dongkyunkim/pytorch-lightning-lb-4-965-with-postprocessing)을 다 올려서 upvote를 꽤 받았는데, 그 내용을 여기에 공유하고 설명하고자 한다. 
 
