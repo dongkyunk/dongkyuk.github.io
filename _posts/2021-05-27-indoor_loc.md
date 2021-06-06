@@ -1,5 +1,5 @@
 ---
-title:  "Indoor Location & Navigation (작성 중)"
+title:  "Indoor Location & Navigation"
 categories: kaggle
 excerpt: 와이파이 신호로 실내 내비게이션
 use_math: true
@@ -220,6 +220,14 @@ Snap to grid의 경우 데이터의 위치가 정확한 데이터가 아닌 grid
 
 Cost minimization의 경우 저자가 말한 것을 인용하자면 To combine machine learning (wifi features) predictions with sensor data (acceleration, attitude heading), I defined cost function as follows, 
 
-![Image](./assets/images/cost_min.png)
+![Image](https://raw.githubusercontent.com/dongkyuk/dongkyuk.github.io/main/assets/images/cost_min.png)
 
 위 수식을 사용해 absolute postion loss를 minimize함과 동시에 sensor data로 predict한 relative position change loss를 minimize하도록 했다. 
+
+## 마치며
+
+실내 내비게이션은 과거에 [해커톤](https://dongkyuk.github.io/project/cmu_maps/)으로 했었던 주제인데, Kaggle 대회로 참여하니 아주 흥미로웠다. 
+
+두 기술이 결합되면 실제로 실시간 실내 내비게이션 서비스를 만들 수 있지 않을까라는 생각이 들기도 한다.
+
+다음 게시물에는 1,2등 솔루션을 살펴 볼 예정이다.
