@@ -88,6 +88,7 @@ $d(x,y) = d(y,x)$
 
 ### Euclidean Metric
 먼저 우리가 잘 아는 Euclidean Metric이 있다.
+
 $$d({x}_1, {x}_2) = \sqrt{\sum_{i=1}^{d} ({x}_{1, i} - {x}_{2, i})^2}$$
 
 다만 Euclidean Metric은 몇 가지 단점([자세한 설명](https://www.machinelearningplus.com/statistics/mahalanobis-distance/))들로 인해 고차원 데이터에서 사용이 힘들다. 간단하게 말하자면, 유클리드 거리는 클래스 간의 상관관계를 고려하지 않고 isotropic(모든 방향에서 동일) 하다.
@@ -99,6 +100,7 @@ $$d({x}_1, {x}_2) = \sqrt{\sum_{i=1}^{d} ({x}_{1, i} - {x}_{2, i})^2}$$
 ![Isotropic Euclidean distance V/S Non-isotropic Mahalanobis distance metric](https://miro.medium.com/max/1400/1*7CHW-oUiEkyk4_gHysXbvg.png)
 
 Mahalanobis Distance Metric이 그러한 metric 중 하나다. 
+
 $$d(x_1,x_2) = \sqrt{((x_1-x_2)^T M(x_1,x_2))}$$
 
 여기서 $M$은 공분산 행렬의 역행렬이며 Euclidean Distance 제곱에 대한 가중치 항으로 작용한다. Mahalanobis 거리 방정식은 dimension 간의 관계를 decorrelate 시킨 후 계산한 Euclidean Metric이라 볼 수 있다. ([추가설명](https://stats.stackexchange.com/questions/326508/intuitive-meaning-of-vector-multiplication-with-covariance-matrix))
@@ -128,6 +130,7 @@ $M$이 Identity Matrix의 경우, Mahalanobis Distance가 Euclidean Distance와 
 이렇게 학습된 Metric function $d$는 
 
 $$d(x_1,x_2)=d_e(f(x_1),f(x_2))$$
+
 이다. 여기서 $d_p$는 euclidean distance, cosine similarity 등 미리 정의한 embedding 간의 거리 함수이다.
  
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdpuky0%2FbtqIjeVyxZo%2FSnmmbKkMGT6aD1JSWybngk%2Fimg.png)
@@ -157,6 +160,7 @@ Deep Metric Learning에서 이를 달성할 수 있는 두 가지 방법이 있�
 Siamese Network는 두 개의 동일한 하위 네트워크(shared parameters)로 구성된 대칭 신경망 아키텍처이다 (아래 그림 참고).
 
 Siamese Network는 주로 위의 목표를 달성하고자 Contrastive Loss와 함께 사용되는데, Contrastive Loss의 식을 살펴보면,
+
 $$L(f(x), f(y), z) = z*d_e(f(x), f(y)) + (1-z)\text{max}(0, m-d_e(f(x), f(y)))$$
 
 여기서, $m$은 margin이며, $z$는 ```int(class(x)==class(y))``` 이다.
@@ -185,6 +189,7 @@ Triplet Network 또한 Siamese Network와 유사하지만 2개가 아닌 3개의
 ![Triplet loss](https://miro.medium.com/max/2800/1*MIPdyhJGx6uLiob9UI9S0w.png)
 
 식을 살펴보면,
+
 $$L(f(a), f(p), f(n)) = \text{max}(0, d(f(a), f(p)) - d(f(a), f(n)) +m)$$
 
 여기서, $m$은 margin이며, $a$,$p$,$n$은 각각 Anchor, Positive, Negative이다.
