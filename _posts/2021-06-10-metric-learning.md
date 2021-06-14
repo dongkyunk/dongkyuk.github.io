@@ -6,31 +6,21 @@ use_math: true
 ---
 
 ## 목차
-
-### 1부
-
-1. 간략 소개
-2. Few Shot Learning 관점에서 살펴보는 Metric Learning의 필요성
-   - 얼굴 인증
-   - Verification 작업이 어려운 이유
-3. Metric
-   - Euclidean Distance Metric
-   - Mahalanobis Distance Metric
-   - 미리 정의된 Distance Metric의 한계
-4. Metric Learning
-5. Deep Metric Learning
-   1. 손실 함수 설계
-      - Contrastive Loss, Siamese Networks
-      - Triplet loss, Triplet Networks
-
-### 2부
-
-5. Deep Metric Learning
-   2. Classification model 변형
-      - Softmax loss
-      - A-Softmax loss
-      - Large Margin Cosine Loss (LMCL)
-      - Arcface loss
+- [목차](#목차)
+- [필요 지식](#필요-지식)
+- [간략 소개 (TL;DR)](#간략-소개-tldr)
+- [Few Shot Learning 관점에서 살펴보는 Metric Learning의 필요성](#few-shot-learning-관점에서-살펴보는-metric-learning의-필요성)
+  - [Verification 작업이 어려운 이유](#verification-작업이-어려운-이유)
+- [Metric:](#metric)
+  - [Euclidean Metric](#euclidean-metric)
+  - [Mahalanobis Distance Metric](#mahalanobis-distance-metric)
+  - [미리 정의된 Distance Metric의 한계](#미리-정의된-distance-metric의-한계)
+- [Metric Learning](#metric-learning)
+- [Deep Metric Learning](#deep-metric-learning)
+  - [손실 함수 설계](#손실-함수-설계)
+    - [Contrastive Loss](#contrastive-loss)
+    - [Triplet Loss](#triplet-loss)
+- [Insight](#insight)
 
 ## 필요 지식
 
@@ -147,13 +137,13 @@ embedding 간의 거리 함수가 $d_e$, $x$와 $y$는 input data, $f$는 embedd
 
 Deep Metric Learning에서 이를 달성할 수 있는 두 가지 방법이 있다.
 
-### 1. 손실 함수 설계
+### 손실 함수 설계
 
 첫 번째는 위의 목표에 알맞은 손실 함수 (Loss function)을 사용하는 것이다. 
 
 그중에서도 대표적인 Contrastive Loss와 Triplete Loss를 알아보자.
 
-- Contrastive Loss
+#### Contrastive Loss
   
 먼저 Siamese Network가 무엇인지 보자. 
 
@@ -176,7 +166,7 @@ m이 무엇인지 의아할 텐데, $x$와 $y$가 다른 클래스인데 이미 
 이는 모델이 어려운 부분에 더 집중할 수 있게 해 학습을 도운다.
 
 
-- Triplet Loss
+#### Triplet Loss
   
 Triplet Network 또한 Siamese Network와 유사하지만 2개가 아닌 3개의 동일한 하위 네트워크로 구성된다. 
 
