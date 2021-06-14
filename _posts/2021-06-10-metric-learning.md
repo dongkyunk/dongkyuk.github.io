@@ -20,6 +20,7 @@ use_math: true
   - [손실 함수 설계](#손실-함수-설계)
     - [Contrastive Loss](#contrastive-loss)
     - [Triplet Loss](#triplet-loss)
+    - [문제점](#문제점)
 - [Insight](#insight)
 
 ## 필요 지식
@@ -188,7 +189,7 @@ $d(f(a), f(p)) - d(f(a), f(n)$를 보면 같은 클래스 간 거리를 좁히�
 
 위의 Contrastive Loss와 비슷하게 $m$을 설정을 하는데, Triplet loss에서는 Positive Distance와 Negative Distance 간의 거리 차이가 $m$ 이상일 경우 loss에 반영을 시키지 않게 해서 학습을 도운다.
 
-- 문제점 
+#### 문제점 
   
 Contrastive Loss와 Triplet Loss는 직관적이라는 장점이 있지만, 효과적으로 학습하기 위해서는 mining을 통해서 학습에 좋은 (즉, 어려운) pair/triplet을 찾아야 한다는 단점이 있다.
 
