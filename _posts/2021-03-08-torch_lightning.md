@@ -10,6 +10,7 @@ Pytorch를 해본 사람이면 항상 코드에 반복되는 부분이 있음을
 이에 대한 해결책으로 제시된 것이 Pytorch Lightning이다.
 
 ## How?
+
 이렇게 모델을 정의하고
 ```python
 class LitModel(LightningModule):
@@ -59,6 +60,7 @@ trainer = pl.Trainer(gpus=1)
 trainer = pl.Trainer(tpu_cores=8)
 ```
 ## More
+
 Pytorch Lightning은 코드만 간단하게 해주는게 아니다.
 각종 최신 및 편리한 기능들을 제공한다.
 
@@ -72,9 +74,10 @@ Pytorch Lightning은 코드만 간단하게 해주는게 아니다.
 
 
 ## Why
+
 Pytorch Lightning은 여러모로 장점이 많은 라이브러리다. 
 
-코드도 깔끔해지고 (특히 Tensorflow 2에서 Pytorch로 넘어오는 유저들은 익숙한 구성에 빠르게 적응할 것 같다), pytorch xla로 하면 골치 아프고 복잡한 TPU 호환도 깔끔하게 한줄로 해준다. 아직 다 파악하지도 못할만큼 각종 기능들 또한 제공해주는건 덤이다.
+코드도 깔끔해지고 (특히 Tensorflow 2/Keras에서 Pytorch로 넘어오는 유저들은 익숙한 구성에 빠르게 적응할 것 같다), pytorch xla로 하면 골치 아프고 복잡한 TPU 호환도 깔끔하게 한줄로 해준다. 아직 다 파악하지도 못할만큼 각종 기능들 또한 제공해주는건 덤이다.
 
 Pytorch Lightning으로 다들 번개 처럼 빠른 딥러닝 연구를 할 수 있길 바란다. :sunglasses:	
 

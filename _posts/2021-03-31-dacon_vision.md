@@ -11,6 +11,7 @@ excerpt: Dacon 대회로 시작하는 Image classification baseline
 ![Image](https://dl.airtable.com/.attachmentThumbnails/069cd9c89e116be040488d3c3e6d4058/457224f8)
 
 ## How
+
 - Efficientnet B5 (Adam, Cross entropy Loss)
 
 Backbone은 Efficientnet B5를 썼다.

@@ -16,4 +16,5 @@ Jekyll로 한글 블로그를 만들면 줄바뀜을 할 때 단어가 중간에
   word-break: keep-all;
 }
 ```
+
 꼭 minimal mistakes theme이 아니더라도 ```_page.scss```를 바꿔주면 된다는건 똑같은 것 같다.

@@ -127,6 +127,7 @@ $$d(x_1,x_2)=d_e(f(x_1),f(x_2))$$
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdpuky0%2FbtqIjeVyxZo%2FSnmmbKkMGT6aD1JSWybngk%2Fimg.png)
   
 ## Deep Metric Learning
+
 드디어 본 주제인 Deep Metric Learning에 도달했다.
 
 위에서 original feature space를 거리 계산하기 쉬운 embedding space로 mapping 하는 embedding 함수 $f$를 학습한다고 했는데, 어떻게 학습을 할까?
