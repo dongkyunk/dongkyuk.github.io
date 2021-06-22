@@ -1,7 +1,8 @@
 ---
 title:  "Bias Variance Tradeoff"
-categories: study
 excerpt: 
+categories: study
+use_math: true
 ---
 ## Bias Variance Tradeoff
 
