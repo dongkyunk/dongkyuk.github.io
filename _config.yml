@@ -215,6 +215,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
+  - jekyll-polyglot
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -296,3 +297,8 @@ collections:
 
 # plugins:
 #   - jemoji
+
+languages: ["ko", "en"]
+default_lang: "ko"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
