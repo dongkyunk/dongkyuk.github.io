@@ -1,6 +1,6 @@
 ---
 title:  "Bias Variance Tradeoff"
-excerpt: 
+excerpt: Bias Variance Tradeoff를 직관과 수식으로 이해해보자
 categories: study
 use_math: true
 ---
