@@ -193,7 +193,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  sourcemap: never
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -292,3 +292,4 @@ languages: ["ko", "en"]
 default_lang: "ko"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true
+
