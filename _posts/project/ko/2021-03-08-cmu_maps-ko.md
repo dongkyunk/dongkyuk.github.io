@@ -2,6 +2,7 @@
 title:  "CMU Maps"
 categories: project
 excerpt: 건물 설계도만 있으면 자동으로 실내 내비게이션 생성  
+lang: ko
 ---
 ![image](https://user-images.githubusercontent.com/55306097/110480851-4ae40880-812a-11eb-9ab0-f0c1dcc0aa87.png)
 
