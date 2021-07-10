@@ -13,6 +13,8 @@ header:
 I am an undergraduate student majoring in Artificial Intelligence at Carnegie Mellon University.
 I am interested in Computer Vision, RL and Hackathons!
 
+[Portfolio](https://www.notion.so/78a3f6459e754b2fb96e818d9fc5dc62)
+
 ### Work Experience
 
 - Machine Learning Engineer, Research Team @ **VisualCamp** 
