@@ -17,6 +17,7 @@ I am interested in Computer Vision, RL and Hackathons!
 
 ### Work Experience
 
+- Deep Learning Engineer @ **VoyagerX** 
 - Machine Learning Engineer, Research Team @ **VisualCamp** 
 - Artificial Intelligence Intern , Face Team @ **Naver Clova**
 - Research Assistant, Flyped Robot Team @ **CMU HCI Institute**
