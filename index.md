@@ -25,15 +25,18 @@ I am interested in Artificial Intelligence, Data Science Competitions and Hackat
 - Research Assistant, Flyped Robot Team @ **CMU HCI Institute**
 
 ### Skills
+
 - Languages : Python, C++, C, Java
 - Deep Learning : PyTorch, Tensorflow
 - Other : Docker, Git, Flask, MySQL, Flutter, Streamlit, OpenCV, Arduino
   
 ### Languages
+
 - Korean (Native)
 - English (Native, TOEFL 119)
 
 ### Education
+
 - Carnegie Mellon University School of Computer Science
   - BS in Artificial Intelligence (2019 - ) 
 - 용인외대부고 국제반
