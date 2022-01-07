@@ -2,12 +2,12 @@
 main:
   - title: "About"
     url: /
-  - title: "Project"
-    url: /project/
-  - title: "Kaggle"
-    url: /kaggle/
-  - title: "Papers"
-    url: /papers/
+  # - title: "Project"
+  #   url: /project/
+  # - title: "Kaggle"
+  #   url: /kaggle/
+  # - title: "Papers"
+  #   url: /papers/
   - title: "Study"
     url: /study/
   - title: "Tips and Tricks"
