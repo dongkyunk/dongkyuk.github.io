@@ -4,8 +4,11 @@ excerpt: Diving deep into metric based deep learning.
 categories: study
 use_math: true
 ---
+## Slide Link
+[Slide](https://docs.google.com/presentation/d/1ARMfQD6kbC9Yan0X-obL29iyCcPfg__LgVxkjMlU-Jk/edit?usp=sharing)
 
 ## 목차
+- [Slide Link](#slide-link)
 - [목차](#목차)
 - [필요 지식](#필요-지식)
 - [간략 소개 (TL;DR)](#간략-소개-tldr)
